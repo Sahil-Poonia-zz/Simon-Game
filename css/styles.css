@@ -1,0 +1,81 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(background.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.jumbotron, .jumbotron-fluid {
+    background-color: rgba(0,0,0,0);
+}
+
+.game-status {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  margin: 15px;
+  transition: all .3s;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+}
+
+button:active {
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+  background-color: grey;
+  opacity: .6;
+}
+
+.jqueryActive {
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: 5px 5px 10px 15px rgba(0,0,0,.5);
+  background-color: white;
+  opacity: 1;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.game-over {
+  background-color: red;
+  background-image: none;
+}
+
+.footer {
+  height: 30px;
+}
+
+@media (max-width: 576px) {
+  button {
+    width: 100px;
+    height: 100px;
+  }
+}
