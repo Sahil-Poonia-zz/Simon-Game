@@ -3,6 +3,12 @@ var userClickedPattern = [];
 var buttonColours = ["red", "blue", "green", "yellow"];
 var i = 0;
 var level = 0;
+$(document).click(function() {
+  i++;
+  if (i === 1) {
+    nextSequence();
+  }
+});
 $(document).keydown(function() {
   i++;
   if (i === 1) {
