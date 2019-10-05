@@ -3,7 +3,7 @@ var userClickedPattern = [];
 var buttonColours = ["red", "blue", "green", "yellow"];
 var i = 0;
 var level = 0;
-$("h1).click(function() {
+$("h1").click(function() {
   i++;
   if (i === 1) {
     nextSequence();
